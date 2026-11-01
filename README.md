@@ -137,6 +137,24 @@ The testbench checks:
 
 \- Zero flag functionality
 
+## Test Coverage
+
+The self-checking testbench verifies the following functionality:
+
+| Test Case | Expected Result | Status |
+|---|---|---|
+| Addition (10 + 5) | 15 | Passed |
+| Subtraction (10 - 5) | 5 | Passed |
+| Bitwise AND | Correct logical result | Passed |
+| Bitwise OR | Correct logical result | Passed |
+| Bitwise XOR | Correct logical result | Passed |
+| Bitwise NOT | Inverted A | Passed |
+| Logical Shift Left | A shifted left by 1 | Passed |
+| Logical Shift Right | A shifted right by 1 | Passed |
+| Zero Flag | Asserted for zero result | Passed |
+
+**Simulation Tool:** Vivado XSim
+
 
 
 \*\*Simulation result:\*\* All ALU tests completed successfully in Vivado XSim.
