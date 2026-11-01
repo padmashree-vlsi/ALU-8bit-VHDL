@@ -140,7 +140,9 @@ The testbench checks:
 
 
 \*\*Simulation result:\*\* All ALU tests completed successfully in Vivado XSim.
+The following waveform shows the functional verification of all eight ALU operations.
 
+![ALU 8-bit Simulation Waveform](ALU_8bit_waveform.png)
 
 
  Tools and Technologies
