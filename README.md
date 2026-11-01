@@ -161,6 +161,11 @@ The self-checking testbench verifies the following functionality:
 The following waveform shows the functional verification of all eight ALU operations.
 
 ![ALU 8-bit Simulation Waveform](ALU_8bit_waveform.png)
+## Simulation Waveform
+
+The following waveform demonstrates the functional verification of the 8-bit ALU using Vivado XSim.
+
+![ALU Simulation Waveform](alu_simulation_waveform.png)
 
 
  Tools and Technologies
