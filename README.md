@@ -180,6 +180,24 @@ The following waveform demonstrates the functional verification of the 8-bit ALU
 
 \- RTL Design and Functional Verification
 
+## Verification Test Coverage
+
+| Test Case | Description | Expected Result |
+|---|---|---|
+| Addition | A + B | Correct 8-bit sum and carry |
+| Subtraction | A - B | Correct difference and borrow |
+| AND | A AND B | Bitwise AND |
+| OR | A OR B | Bitwise OR |
+| XOR | A XOR B | Bitwise XOR |
+| NOT | NOT A | Bitwise inversion |
+| Left Shift | A shifted left by 1 | Correct shifted result |
+| Right Shift | A shifted right by 1 | Correct shifted result |
+| Zero Flag | Result equals 0 | Zero = 1 |
+| Arithmetic Overflow | Addition exceeds 255 | Carry = 1 |
+| Borrow | A is less than B | Carry = 1 |
+
+All test cases passed in Vivado XSim simulation.
+
 
 
  Learning Outcomes
